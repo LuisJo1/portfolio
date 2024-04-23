@@ -4,7 +4,8 @@ import Html from '../public/assets/skills/html.png';
 import Css from '../public/assets/skills/css.png';
 import Javascript from '../public/assets/skills/javascript.png';
 import VuejsImg from '../public/assets/skills/vuejs.png';
-import NodeImg from '../public/assets/skills/node.png';
+import NetImg from '../public/assets/skills/net.png';
+import AngularImg from '../public/assets/skills/angular.png'
 import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import NextJS from '../public/assets/skills/nextjs.png'
@@ -82,24 +83,23 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={NodeImg} width='64px' height='64px' alt='/' />
+                <Image src={NetImg} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Nodejs</h3>
+                <h3>.Net</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={NextJS} width='64px' height='64px' alt='/' />
+                <Image src={AngularImg} width='74px' height='74px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Next.Js</h3>
+                <h3>Angular</h3>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

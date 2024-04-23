@@ -13,7 +13,7 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hola, soy <span className='text-[#5651e5]'>Luis Morales</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>Un desarrollador web front-end</h1>
+          <h1 className='py-2 text-gray-700'>Un desarrollador Web FrontEnd</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             Estoy centrado en la creación de aplicaciones web front-end receptivas que integran tecnologías de back-end.
           </p>
@@ -39,11 +39,6 @@ const Main = () => {
             <Link href='/#contact'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
-              </div>
-            </Link>
-            <Link href='/resume'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
               </div>
             </Link>
           </div>
