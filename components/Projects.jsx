@@ -4,7 +4,7 @@ import React from 'react';
 import cripackImg from '../public/assets/projects/cripack.png';
 import mutualserImg from "../public/assets/projects/mutualser.png"
 import ProjectItem from './ProjectItem';
-import sergioCaponeImg from '../public/assets/projects/sergioCapone1.png'
+import sergioCaponeImg from '../public/assets/projects/sergioCapone2.png'
 
 const Projects = () => {
   return (
